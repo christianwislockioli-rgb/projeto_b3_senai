@@ -1,0 +1,11 @@
+# Ficheiros de ambiente e segurança
+.streamlit/secrets.toml
+.env
+venv/
+env/
+
+# Ficheiros de cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
