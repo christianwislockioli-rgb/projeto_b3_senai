@@ -60,7 +60,7 @@ No dia a dia corporativo, um gestor de portfólio usaria este painel para:
 3. **Sinalização de Tendência:** O cruzamento das médias móveis (SMA 21 e 50 períodos) sobre os Candlesticks facilita o rastreio visual matemático de tendências e potenciais inversões de ciclo (bull/bear markets).
 
 ### 10. Demonstração do Data App (Streamlit)
-- **Link em Produção:** [🔗 Acessar o Terminal B3 no Streamlit Cloud]
+- **Link em Produção:** [🔗 Acessar o Terminal B3 no Streamlit Cloud](https://projetob3senai-nuy9cqvxkqu2plsls2djjq.streamlit.app/)
 
 **Capturas de Tela:**
 
