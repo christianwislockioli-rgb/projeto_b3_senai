@@ -123,7 +123,7 @@ Este projeto foi planejado e executado sob a metodologia ágil Kanban no Trello,
 ![Gestão Ágil no Trello](docs/trello_kanban.png)
 
 * **Link Aplicação em Produção:** [🔗 Streamlit Community Cloud](https://projetob3senai-nuy9cqvxkqu2plsls2djjq.streamlit.app/)
-* **Pitch de Apresentação Executiva:** [🔗 Assistir ao Pitch (Vídeo)]
+* **Pitch de Apresentação Executiva:** [🔗 Assistir ao Pitch (Vídeo)](https://drive.google.com/file/d/1U23ff2N-z7VTNWD0FD1zmQA41QReN952/view?usp=sharing)
 
 ### 14. Autoria e Créditos
 * **Desenvolvido por:** Christian Lorenzo Oliveira Wislocki
