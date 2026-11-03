@@ -20,9 +20,8 @@ colunas_desejadas = ['Data', 'Ativo', 'Open', 'High', 'Low', 'Close', 'Adj Close
 df_b3 = df_b3[colunas_desejadas]
 df_b3.iloc[:, 2:] = df_b3.iloc[:, 2:].round(2)
 
-# 3. Salvar usando caminho relativo (Exigência 4.3 da documentação)
 caminho_saida = os.path.join('..', 'data', 'cotacoes_b3_2021_2023.csv') 
-# Nota: se estiver rodando um arquivo .py na raiz, mude para os.path.join('data', '...')
+
 
 df_b3.to_csv(caminho_saida, index=False)
 print(f"Extração concluída! Arquivo salvo em: {caminho_saida}")
