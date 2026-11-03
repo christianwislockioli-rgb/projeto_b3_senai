@@ -65,9 +65,11 @@ No dia a dia corporativo, um gestor de portfólio usaria este painel para:
 
 ![Visão Geral dos KPIs e Gráfico Base 100](docs/visao_geral.png)
 
-![Matriz de Risco e Drawdown](imagens/risco_drawdown.png)
+![Matriz de Risco e Drawdown](docs/risco_drawdown.png)
 
-![Heatmap de Correlação e Candlesticks](docs/analise_tecnica.png)
+![Heatmap de Correlação](docs/correlacao_setorial.png)
+
+![Candlesticks](docs/analise_tecnica.png)
 
 ### 11. Como Executar Localmente
 Para executar este projeto na sua máquina local:
