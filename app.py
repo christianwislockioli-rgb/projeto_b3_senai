@@ -11,13 +11,13 @@ import base64
 # ==========================================
 st.set_page_config(page_title="Terminal Analytics B3", page_icon="📈", layout="wide")
 
-BG_COLOR = '#131722'       # Fundo dos gráficos e tela principal (Imagem 2)
-SIDEBAR_COLOR = '#001B74'  # Fundo institucional B3 para a barra lateral (Imagem 1)
+BG_COLOR = '#131722'       
+SIDEBAR_COLOR = '#001B74'  
 GRID_COLOR = '#2a2e39'
 TEXT_COLOR = '#d1d4dc'
 CYAN_B3 = '#00E5FF'
 
-# Logo da B3 embutida (nunca falha o carregamento)
+
 LOGO_B3_B64 = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgNDAiPjx0ZXh0IHg9IjAiIHk9IjMwIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMzAiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSIjZmZmZmZmIj5bQl08dHNwYW4gZHk9Ii0xNCIgZm9udC1zaXplPSIyMCI+MzwvdHNwYW4+PC90ZXh0Pjwvc3ZnPg=="
 
 st.markdown(f"""
@@ -244,7 +244,7 @@ if not df.empty:
                 df_ativo_mm['SMA_21'] = df_ativo_mm['Close'].rolling(window=21).mean()
                 df_ativo_mm['SMA_50'] = df_ativo_mm['Close'].rolling(window=50).mean()
                 
-                # Candlestick limpo (sem hovertemplate direto)
+                
                 fig_candle = go.Figure(data=[go.Candlestick(
                     x=df_ativo_mm['Data'], open=df_ativo_mm['Open'], high=df_ativo_mm['High'], 
                     low=df_ativo_mm['Low'], close=df_ativo_mm['Close'], name='Preço',
@@ -256,7 +256,7 @@ if not df.empty:
                 fig_candle = aplicar_estilo_terminal(fig_candle, height=550)
                 fig_candle.update_layout(xaxis_rangeslider_visible=False, title=f"Ação do Preço - {ativo_mm}")
                 
-                # Correção: Aplicando o formato de hover nas linhas de média móvel (Scatter) e mantendo o padrão do Candlestick
+                
                 fig_candle.update_traces(selector=dict(name='SMA 21'), hovertemplate="SMA 21: %{y:.2f}")
                 fig_candle.update_traces(selector=dict(name='SMA 50'), hovertemplate="SMA 50: %{y:.2f}")
                 
