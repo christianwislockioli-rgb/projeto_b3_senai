@@ -71,6 +71,8 @@ No dia a dia corporativo, um gestor de portfólio usaria este painel para:
 
 ![Candlesticks](docs/analise_tecnica.png)
 
+![Auditoria](docs/auditoria.png)
+
 ### 11. Como Executar Localmente
 Para executar este projeto na sua máquina local:
 
