@@ -7,7 +7,7 @@ ativos = ['WEGE3.SA', 'EMBR3.SA', 'VALE3.SA', 'GGBR4.SA', 'KLBN11.SA', 'PETR4.SA
           'PRIO3.SA', 'EGIE3.SA', 'ITUB4.SA', 'BBDC4.SA', 'ABEV3.SA', 'RENT3.SA']
 
 data_inicio = '2021-01-01'
-data_fim = '2023-12-31' # yfinance exclui o último dia, então use '2024-01-01' na query se quiser garantir o dia 31
+data_fim = '2023-12-31'
 
 print("Iniciando o download dos dados da B3...")
 df_b3 = yf.download(ativos, start=data_inicio, end='2024-01-01')
