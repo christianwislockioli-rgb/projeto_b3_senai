@@ -35,7 +35,8 @@ A construção da base de dados seguiu um fluxo enxuto de extração e tratament
 
 ### 6. Tecnologias e Bibliotecas
 - **Python 3.10+:** Linguagem base do projeto.
-- **Pandas & NumPy:** Essenciais para a vetorização de cálculos financeiros pesados (médias móveis, volatilidade anualizada, drawdown).
+- **Pandas & NumPy:** Essenciais para a manipulação e vetorização de cálculos financeiros pesados (médias móveis, volatilidade anualizada, drawdown).
+- **yfinance:** Biblioteca utilizada para a extração automatizada e em tempo real dos dados históricos de cotações dos ativos da B3 direto do Yahoo Finance.
 - **Streamlit:** Framework escolhido para construir o frontend e o roteamento web do painel sem precisar de HTML/JS, permitindo o uso de `session_state` e cache nativo de forma ágil.
 - **Plotly Express & Graph_Objects:** Utilizado pela interatividade e renderização superior de gráficos financeiros (Candlesticks, Drawdown e Heatmaps).
 - **SQLAlchemy & Psycopg2:** Drivers de conexão resiliente com o banco PostgreSQL no Supabase.
