@@ -63,9 +63,13 @@ No dia a dia corporativo, um gestor de portfólio usaria este painel para:
 
 **Capturas de Tela:**
 
-[Visão Geral dos KPIs e Gráfico Base 100](docs/visao_geral.png)
-[Matriz de Risco e Drawdown](imagens/risco_drawdown.png)
-[Heatmap de Correlação e Candlesticks](docs/analise_tecnica.png)
+![Visão Geral dos KPIs e Gráfico Base 100](docs/visao_geral.png)
+
+![Matriz de Risco e Drawdown](docs/risco_drawdown.png)
+
+![Heatmap de Correlação](docs/correlacao_setorial.png)
+
+![Candlesticks](docs/analise_tecnica.png)
 
 ### 11. Como Executar Localmente
 Para executar este projeto na sua máquina local:
@@ -111,7 +115,8 @@ Este projeto foi planejado e executado sob a metodologia ágil Kanban no Trello,
 * **Quadro Kanban (Trello):** [🔗 Acessar Quadro de Gestão Ágil](https://trello.com/invite/b/6ae872ed82c1c9d6015ac7aa/ATTI03a713c031390a0f8d848e52359a184fAEF87A88/projetob3)
 
 
-* **Evidência do Quadro de Tarefas (Print):** 
+* **Evidência do Quadro de Tarefas (Print):**
+
 ![Gestão Ágil no Trello](docs/trello_kanban.png)
 
 * **Link da Aplicação em Produção:** [🔗 Streamlit Community Cloud]
